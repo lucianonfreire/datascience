@@ -1,0 +1,29 @@
+# Sobre o projeto #
+
+## Contextualização do tema ##
+
+### Importando as bibliotecas ###
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+
+### Importando os dados ###
+df = pd.read_csv("https://dl.dropboxusercontent.com/s/xn2a4kzf0zer0xu/aquisition_train.csv?dl=0")
+
+### Análise exploratória ###
+# Analisando as dimensões do data set
+# O dataset possui 45k linhas e 43 colunas
+df.shape
+
+# Observar as 10 primeiras linhas do dataset
+df.head(10)
+
+#### Observações da análise do dataset ####
+# Saber os valores NaN
+df.isnull().sum()
+
+# Resumo estatístico dos dados 
+df.describe()
+
+
