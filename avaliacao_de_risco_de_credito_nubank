@@ -1,20 +1,30 @@
 # Sobre o projeto #
+Este projeto é pra consolidaor e treinar a criação de um solução para problemas de dados, e também servir de apresentação de portifólio.
 
 ## Contextualização do tema ##
+Problemas relaciondos a classificação de créditos por instituições financeiras, é muito comum. E, sempre haverá a necessidade de soluções
+para clasificar o potencial cliente. Diminuindo a possibilidade do cliente ficar inadiplente quando é liberado o crédito pela mesma.
 
 ### Importando as bibliotecas ###
+As bibliotecas mais importantes para realização do projeto.
+# pandas para limpeza, friltragem e organização de dados que serão usados.
+# matplotlib para visualização dos dados que serão usados.
+# seaborne para uma visualização sob outros aspectos dos mesmo dados.
+# numpay para realização de funções e cálculos matemáticos.
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
 ### Importando os dados ###
+Os dados brutos que serão usados, estão em nuvem.
 df = pd.read_csv("https://dl.dropboxusercontent.com/s/xn2a4kzf0zer0xu/aquisition_train.csv?dl=0")
 
 ### Análise exploratória ###
 # Analisando as dimensões do data set
-# O dataset possui 45k linhas e 43 colunas
 df.shape
+Obs: O dataset possui 45k linhas e 43 colunas
 
 # Observar as 10 primeiras linhas do dataset
 df.head(10)
