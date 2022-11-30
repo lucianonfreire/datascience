@@ -36,4 +36,6 @@ df.isnull().sum()
 # Resumo estatístico dos dados 
 df.describe()
 
+# Edição das features 
+
 
