@@ -24,6 +24,7 @@ df = pd.read_csv("https://dl.dropboxusercontent.com/s/xn2a4kzf0zer0xu/aquisition
 ### Análise exploratória ###
 # Analisando as dimensões do data set
 df.shape
+#Mostra o tamanho do dataset##
 Obs: O dataset possui 45k linhas e 43 colunas
 
 # Observar as 10 primeiras linhas do dataset
